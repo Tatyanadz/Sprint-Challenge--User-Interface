@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+.navigation {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 11px;
+    margin: 22px;
+}
+
+a:hover {
+    color: darkred;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,6 +95,11 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+img[alt="jumbo"] {
+    padding: 25px;
+}
+
 
 .top-content .text-container {
     width: 48%;
@@ -89,6 +111,7 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 
 .middle-content h2 {
     padding: 0 2%;
@@ -112,6 +135,45 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +205,64 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page */
+
+img[alt="j-about"] {
+    justify-content: center;
+    margin: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+    padding: 20px;
+}
+
+.main-about-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+.learn {
+    justify-content: center;
+    width: 48%;
+    height: 47%;
+    border-bottom: 1px dashed black;
+    padding-top: 20px;
+}
+
+.about-box {
+    padding: 20px;
+    margin: 10px;
+}
+
+button {
+    display: flex;
+    padding: 0.35em 1.2em;
+    border:0.1em solid black;
+    margin: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    color:black;
+    text-align:center;
+    background: white; 
+}
+
+.work-together {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
 }
